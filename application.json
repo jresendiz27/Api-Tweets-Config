@@ -7,7 +7,7 @@
         "poolSize": "2"
     },
     "server": {
-        "port": 8080
+        "port": 7090
     },
     "contract": "https://raw.githubusercontent.com/jresendiz27/Api-Tweets-Config/master/api-contract.yml"
 }
