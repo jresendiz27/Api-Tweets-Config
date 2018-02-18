@@ -4,7 +4,7 @@
         "user": "root",
         "password": "n0m3l0s3",
         "database": "tweet_database",
-        "poolSize": "4"
+        "poolSize": "2"
     },
     "server": {
         "port": 8080
