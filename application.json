@@ -3,8 +3,9 @@
         "host": "127.0.0.1",
         "user": "root",
         "password": "n0m3l0s3",
-        "database": "tweet_database",
-        "poolSize": "2"
+        "database": "tweet",
+        "poolSize": 2,
+        "port": 5432
     },
     "server": {
         "port": 7090
