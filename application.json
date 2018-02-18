@@ -11,9 +11,6 @@
     "flyway": {
         "baselineOnMigrate": true,
         "locations": [
-            "filesystem:/home/jresendiz/Documents/Personal/Api-Tweets-Json/src/main/resources/db/migration",
-            "filesystem:./src/main/resources/db/migration",
-            "filesystem:/home/jresendiz/Desktop/db/migration",
             "classpath:db/migration"
         ]
     },
