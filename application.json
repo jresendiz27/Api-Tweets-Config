@@ -1,6 +1,6 @@
 {
     "database": {
-        "host": "127.0.0.1",
+        "host": "localhost",
         "user": "root",
         "password": "n0m3l0s3",
         "database": "tweet",
