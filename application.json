@@ -9,6 +9,7 @@
         "sslMode": "disable"
     },
     "flyway": {
+        "baselineOnMigrate": true,
         "locations": ["src/main/resources/db/migration"]
     },
     "server": {
