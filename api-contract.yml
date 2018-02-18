@@ -23,17 +23,15 @@ paths:
           in: query
           required: true
           schema:
-            type: string
+            type: number
           deprecated: false
           allowEmptyValue: false
           description: 'Must be in the range of -180,180.'
-          minLength: ''
-          maxLength: ''
         - name: latitude
           in: query
           required: true
           schema:
-            type: string
+            type: number
           description: 'Must be in the range of-90, 90'
       responses:
         '200':
@@ -64,3 +62,12 @@ paths:
           description: The API is OK!
         '500':
           description: There's an error in the API. See response for details.
+  /definition:
+    get:
+      summary: Returns the API definition
+      description: "Returns the API definition"
+      parameters: []
+      operationId: definition
+      responses:
+        '200':
+          description: The API is OK!
