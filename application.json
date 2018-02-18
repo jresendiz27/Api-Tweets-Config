@@ -10,7 +10,7 @@
     },
     "flyway": {
         "baselineOnMigrate": true,
-        "locations": ["db/migration"]
+        "locations": ["/home/jresendiz/Documents/Personal/Api-Tweets-Json/src/main/resources/db/migration"]
     },
     "server": {
         "host": "0.0.0.0",
