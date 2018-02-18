@@ -4,8 +4,9 @@
         "user": "root",
         "password": "n0m3l0s3",
         "database": "tweet",
-        "poolSize": 2,
-        "port": 5432
+        "maxPoolSize": 10,
+        "port": 5432,
+        "sslMode": "disable"
     },
     "server": {
         "host": "0.0.0.0",
