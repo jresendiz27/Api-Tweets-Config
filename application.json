@@ -1,9 +1,12 @@
 {
     "database": {
-        "host": "",
-        "user": "",
-        "password": "",
-        "database": "",
-        "poolSize": ""
+        "host": "localhost",
+        "user": "root",
+        "password": "n0m3l0s3",
+        "database": "tweet",
+        "poolSize": "4"
+    },
+    "server": {
+        "port": 8080
     }
 }
