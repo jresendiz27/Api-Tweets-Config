@@ -4,7 +4,7 @@
         "user": "root",
         "password": "n0m3l0s3",
         "database": "tweet",
-        "poolSize": 2,
+        "poolSize": 4,
         "port": 5432
     },
     "server": {
