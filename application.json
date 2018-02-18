@@ -3,7 +3,7 @@
         "host": "localhost",
         "user": "root",
         "password": "n0m3l0s3",
-        "database": "tweet",
+        "database": "tweet_database",
         "poolSize": "4"
     },
     "server": {
