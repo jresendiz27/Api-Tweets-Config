@@ -10,7 +10,7 @@
     },
     "flyway": {
         "baselineOnMigrate": true,
-        "locations": ["src/main/resources/db/migration"]
+        "locations": ["db/migration"]
     },
     "server": {
         "host": "0.0.0.0",
