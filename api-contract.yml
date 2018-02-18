@@ -1,0 +1,66 @@
+openapi: 3.0.0
+servers: []
+info:
+  description: The API used for OPI's data engineer exam
+  version: 1.0.0
+  title: Tweet Counting API
+  termsOfService: ''
+  contact:
+    email: jresendiz27@gmail.com
+    name: jresendiz27@gmail.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags: []
+paths:
+  /tweet:
+    get:
+      summary: Counts the number of tweets in a given longitude/latitude
+      description: ''
+      operationId: tweetCount
+      parameters:
+        - name: longitude
+          in: query
+          required: true
+          schema:
+            type: string
+          deprecated: false
+          allowEmptyValue: false
+          description: 'Must be in the range of -180,180.'
+          minLength: ''
+          maxLength: ''
+        - name: latitude
+          in: query
+          required: true
+          schema:
+            type: string
+          description: 'Must be in the range of-90, 90'
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema: {}
+        '404':
+          description: Information not found in the database/service.
+  /health:
+    post:
+      summary: 'Creates a basic check in the API, returns the health information.'
+      description: ''
+      parameters: []
+      operationId: runApiTest
+      responses:
+        '200':
+          description: Description
+        '500':
+          description: There's an error in the API. See response for details.
+    get:
+      summary: Retrieves the information from the server and it current status.
+      description: "Returns the Api's health information"
+      parameters: []
+      operationId: health
+      responses:
+        '200':
+          description: The API is OK!
+        '500':
+          description: There's an error in the API. See response for details.
