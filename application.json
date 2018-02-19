@@ -1,26 +1,22 @@
 {
-    "database": {
-        "host": "127.0.0.1",
-        "username": "root",
-        "password": "n0m3l0s3",
-        "database": "tweet",
-        "maxPoolSize": 10,
-        "port": 5432,
-        "sslMode": "disable"
-    },
-    "flyway": {
-        "baselineOnMigrate": true,
-        "locations": "classpath:db/migration"
-    },
-    "server": {
-        "host": "0.0.0.0",
-        "port": 8080,
-        "logActivity": true,
-        "reusePort": true
-    },
-    "travis": {
-        "repositoryId": 17657589,
-        "token": "6EKi-6oX5p5bH1Xv-z3U7Q"
-    },
+    "database.host": "127.0.0.1",
+    "database.username": "root",
+    "database.password": "n0m3l0s3",
+    "database.database": "tweet",
+    "database.maxPoolSize": 10,
+    "database.port": 5432,
+    "database.sslMode": "disable",
+
+    "flyway.baselineOnMigrate": true,
+    "flyway.locations": "classpath:db/migration",
+
+    "server.host": "0.0.0.0",
+    "server.port": 8080,
+    "server.logActivity": true,
+    "server.reusePort": true,
+
+    "travis.repositoryId": 17657589,
+    "travis.token": "6EKi-6oX5p5bH1Xv-z3U7Q",
+    
     "contract": "https://raw.githubusercontent.com/jresendiz27/Api-Tweets-Config/master/api-contract.yml"
 }
