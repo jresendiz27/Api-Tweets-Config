@@ -19,7 +19,7 @@
         "reusePort": true
     },
     "travis": {
-        "repositoryId": "17657589",
+        "repositoryId": 17657589,
         "token": "6EKi-6oX5p5bH1Xv-z3U7Q"
     },
     "contract": "https://raw.githubusercontent.com/jresendiz27/Api-Tweets-Config/master/api-contract.yml"
