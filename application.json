@@ -27,6 +27,13 @@
             "config": {
                 "message": "Hello, World"
             }
+        },
+        {
+            "name": "mx.jresendiz.poc.verticles.RestServerVerticle",
+            "instances": 2,
+            "config": {
+                "message": "Rest Server"
+            }
         }
     ]
 }
