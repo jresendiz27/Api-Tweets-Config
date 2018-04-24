@@ -18,5 +18,11 @@
     "travis.repositoryId": 17657589,
     "travis.token": "6EKi-6oX5p5bH1Xv-z3U7Q",
     
-    "contract": "https://raw.githubusercontent.com/jresendiz27/Api-Tweets-Config/master/api-contract.yml"
+    "contract": "https://raw.githubusercontent.com/jresendiz27/Api-Tweets-Config/master/api-contract.yml",
+    
+    "Verticles": [
+        {
+            "name": "mx.jresendiz.poc.verticles.WebClientVerticle"
+        }
+    ]
 }
