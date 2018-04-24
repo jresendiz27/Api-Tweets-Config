@@ -23,7 +23,7 @@
     "Verticles": [
         {
             "name": "mx.jresendiz.poc.verticles.WebClientVerticle",
-            "instances": 1,
+            "instances": 2,
             "config": {
                 "message": "Hello, World"
             }
